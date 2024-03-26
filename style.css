@@ -1,0 +1,231 @@
+.abso {
+  margin-left: 3em;
+  margin-top: 6em;
+}
+
+/* Here navClick is my custom class. */
+.navClick:hover {
+  color: red !important;
+}
+
+.abtUs:hover {
+  background-color: #22cfb8 !important;
+}
+
+.top {
+  position: absolute;
+}
+
+/* Custom button */
+.custom-btn {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.bg-image {
+  /* background-image: url("./assets/img/frontpage.jpg");  */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh;
+}
+
+
+
+.grid-item {
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+.flower {
+  background: teal;
+}
+.bird {
+  background: salmon;
+}
+.fruit {
+  background: tomato;
+}
+
+
+/* Fitting image to cover */
+.img-fitting{
+  object-fit: contain;
+}
+
+.img-fitting-1{
+  object-fit: contain;
+}
+
+/* Filtering buttons */
+#portfolio button{
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px !important;
+}
+
+#portfolio button.active{
+  background-color: #ffc107 !important;
+  color: white;
+}
+
+/* Testimony part */
+
+/* Styles for the arrow */
+.arrow-down {
+  position: fixed;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  width: 40px;
+  height: 40px;
+  background-color: red; /* Replace with the color you want */
+  border-radius: 25%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.myimg{
+  height: 100vh;
+  background-color: rgb(49, 215, 215);
+}
+
+.myText{
+  color: #22CFB8; 
+}
+
+
+.myBg{
+  background-color: rgb(49, 215, 215);
+}
+
+.mycard {
+  border: none;
+  border-radius:0px ; 
+}
+
+.rmOutline:focus {
+  box-shadow: none;
+  outline: none;
+  border-color: rgba(0,0,0,.125);
+}
+
+.accordion-item .accordion-header button{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.accordion .item{
+  border: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: grey;
+}
+
+.link:hover{
+  color: white;
+}
+
+
+/* Image fitting */
+.fitting{
+  object-fit: cover !important;
+}
+
+.hght{
+  max-height: 100px;
+}
+
+
+/* Space between sections */
+.secspace{
+  margin-top: 100px;
+}
+
+/* COntact backgrund */
+.contact-bg {
+  background-image: url('./assets/img/contact\ bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.borderClick:focus{
+  border-color: none !important; 
+  box-shadow: none !important;
+  border: red;
+}
+
+.swiper {
+  width: 100%;
+  height: 400px;
+  /* background: #eee; */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl; /* vertical right-to-left */
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  margin-bottom: px;
+}
+
+.vertical-line {
+  border-left: 2px solid red; /* Adjust thickness and color of the line */
+  height: 80px; /* Adjust height of the line */
+}
+
+hr {
+  border: nne; /* Remove default border */
+  border-top: 3px solid red !important; /* Set top border to create the line */
+  width: 100px;
+}
