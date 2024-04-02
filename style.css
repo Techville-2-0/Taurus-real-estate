@@ -4,7 +4,8 @@
 }
 
 /* Here navClick is my custom class. */
-.navClick:hover {
+.navbar li a.active {
+  border-bottom: 2px solid red !important;
   color: red !important;
 }
 
@@ -228,4 +229,10 @@ hr {
   border: nne; /* Remove default border */
   border-top: 3px solid red !important; /* Set top border to create the line */
   width: 100px;
+}
+
+.hv:hover{
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
 }
