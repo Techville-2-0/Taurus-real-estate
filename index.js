@@ -44,3 +44,5 @@ window.addEventListener("scroll", function () {
     arrow.style.display = "flex"; // Show the arrow
   }
 });
+
+const clickNav = document.querySelector('.foccus')

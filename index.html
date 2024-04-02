@@ -43,8 +43,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav fw-bolder">
                         <li class="nav-item">
-                            <a class="border border-0 border-bottom border-danger nav-link navClick text-danger"
-                                href="#">About us</a>
+                            <a class="nav-link active~" href="#">About us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link navClick" href="#services">Services</a>
@@ -53,7 +52,7 @@
                             <a class="nav-link navClick" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navClick" href="#clients">Clients</a>
+                            <a class="nav-link navClick foccus" href="#clients">Clients</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link navClick" href="#contact">Contact us</a>
@@ -68,10 +67,10 @@
     <!-- Front page -->
     <section id="home">
         <Container class="d-flex flex-column position-relative">
-            <img class="img-fluid" src="./assets/Taurus_2.jpg" style="height: 100vh;" alt="" srcset="">
+            <img class="img-fluid" src="./assets/BG.jpg" style="height: 100vh; width: 100vw;" alt="" srcset="">
             <Container class="position-absolute abso">
-                <p style="font-size: 3vw;" class=""><span class="fs-3">Urbanistic</span> <br> <span
-                        class="text-danger fw-bolder" style="font-size: 100px !;">Development</p>
+                <p style="font-size: 3vw;" class="hv"><span class="fs-3">Urbanistic</span> <br> <span
+                        class="hv text-danger fw-bolder" style="font-size: 100px !;">Development</p>
                 <div class="d-flex ">
                     <p class="border-dark border-3 border-bottom w-25"></p>
                     <p class="mx-2 fs-1">INSTITUTE</p>
@@ -113,21 +112,21 @@
             <Container class="p-5">
                 <Container class="d-flex justify-content-around">
                     <Container class="mx-5">
-                        <h1 class="text-danger fw-bolder">150</h1>
+                        <h1 class="text-danger fw-bolder" style="font-size: 4rem;">150</h1>
                         <p>PROJECTS</p>
                     </Container>
                     <Container>
-                        <h1 class="text-danger fw-bolder">100</h1>
+                        <h1 class="text-danger fw-bolder" style="font-size: 4rem;">100</h1>
                         <p>EMPLOYS</p>
                     </Container>
                 </Container>
                 <Container class="d-flex justify-content-around">
                     <Container class="mx-5">
-                        <h1 class="text-danger fw-bolder">54</h1>
+                        <h1 class="text-danger fw-bolder" style="font-size: 4rem;">54</h1>
                         <p>CONTRACTORS</p>
                     </Container>
                     <Container>
-                        <h1 class="text-danger fw-bolder">34</h1>
+                        <h1 class="text-danger fw-bolder" style="font-size: 4rem;">34</h1>
                         <p>CLIENTS</p>
                     </Container>
                 </Container>
@@ -148,9 +147,10 @@
             </Container>
             <Container class="d-flex flex-row justify-content-between">
                 <Container class="d-none d-md-block">
-                    <img src="./assets/169fad30bc49fb4e929b4d7504775354.jpeg" style="width: 50%;" alt="">
+                    <p class="position-absolute text-danger border-bottom" style="font-size: 3rem;">Taurus</p>
+                    <img src="./assets/169fad30bc49fb4e929b4d7504775354.jpeg" style="width: 80%; object-fit:fill;" alt="">
                 </Container>
-                <Container>
+                <Container class="">
                     <Container class="d-flex flex-row">
                         <Container class="text-center">
                             <box-icon name='building-house'></box-icon>
@@ -177,7 +177,7 @@
                             </p>
                         </Container>
                     </Container>
-                    <Container class="d-flex flex-row">
+                    <Container class="d-flex flex-row" style="margin-top: 7rem;">
                         <Container class="text-center">
                             <box-icon name='brightness'></box-icon>
                             <h4 class="text-center text-danger">Renovation</h4>
@@ -257,7 +257,7 @@
                 <Container class="p-3">
                     <img class="mx-3" src="./assets/Legacy real state.png" style="width: 100px;" alt="">
                     <img class="mx-3" src="./assets/img/Awash_International_Bank.png" style="width: 100px;" alt="">
-                    <img class="mx-3" src="./assets/img/Ashuwa .gif" style="width: 100px;" alt="">
+                    <img class="mx-3" src="./assets/img/Dashen_Bank.png" style="width: 100px;" alt="">
                 </Container>
                 <Container class="p-3">
                     <img class="mx-3" src="./assets/Mice Ethio.png" style="width: 100px;" alt="">
@@ -444,6 +444,7 @@
     <!-- Javascript codes -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -461,34 +462,27 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="./script.js"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="./index.js"></script>
     <script>
-        const btns = document.querySelectorAll('.filter_btns button')
-        const cards = document.querySelectorAll('.card')
-
-        btns.forEach(li => {
-            li.onclick = function () {
-                //active
-                btns.forEach(li => {
-                    li.className = "";
-                })
-                li.className = "active";
-
-                //Filter
-                const value = li.textContent;
-                cards.forEach(img => {
-                    img.style.display = 'none';
-                    if (img.getAttribute('data-name') == value.toLowerCase() || value == "Show all") {
-                        img.style.display = 'block';
-                    }
-                })
-            }
+        // Get all navbar links
+        var navLinks = document.querySelectorAll('.nav-link');
+    
+        // Loop through each link and add click event listener
+        navLinks.forEach(function (link) {
+          link.addEventListener('click', function (event) {
+            // Remove 'active' class from all links
+            navLinks.forEach(function (link) {
+              link.classList.remove('active');
+            });
+    
+            // Add 'active' class to the clicked link
+            event.target.classList.add('active');
+          });
         });
-    </script>
+      </script>
 </body>
 
 </html>
